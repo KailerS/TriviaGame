@@ -35,10 +35,10 @@ var questions = [{
     correctAnswer: "Scarab",
     image: "assets/images/scarab.jpg",
 }, {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    image: "",
+    question: "After collecting all skulls in Halo 3 which helmet was unlocked for multiplayer?",
+    answers: ["Recon", "Hayabusa", "EVA", "Security"],
+    correctAnswer: "Hayabusa",
+    image: "assets/images/hayabusa.jpg",
 }, {
     question: "",
     answers: ["", "", "", ""],
