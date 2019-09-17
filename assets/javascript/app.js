@@ -1,7 +1,7 @@
 var timerStart = 35;
 var questions = [{
     question: "Who is John 117?",
-    answers: ["The Arbiter", "Master Chief", "Sgt. Johnson", "Captain Keys"],
+    answers: ["The Arbiter", "Master Chief", "Sgt. Johnson", "Captain Keyes"],
     correctAnswer: "Master Chief",
     image: "assets/images/masterChief.jpg",
 }, {
@@ -40,15 +40,18 @@ var questions = [{
     correctAnswer: "Hayabusa",
     image: "assets/images/hayabusa.jpg",
 }, {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    image: "",
+    question: "What century is the game set in?",
+    answers: ["23rd", "45th", "26th", "30th"],
+    correctAnswer: "26th",
+    image: "assets/images/city.jpg",
 }, {
-    question: "",
-    answers: ["", "", "", ""],
-    correctAnswer: "",
-    image: "",
+    question: "Who is the first character mentioned?",
+    answers: ["Cortana", "Master Chief", "The Arbiter", "Miranda Keyes"],
+    correctAnswer: "Cortana",
+    image: "assets/images/Cortana.jpg",
 }];
+
+var quizArea = $("#quizHolder");
+var timer;
 
 
