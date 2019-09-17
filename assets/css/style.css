@@ -9,6 +9,40 @@ body {
     width: 50%;
     height: 95%;
     margin: auto;
-    background-color: transparent; 
-   
+    background-color: transparent;    
 }
+
+img {
+    height: 300px;
+}
+
+#quizHolder {
+    position: relative;
+    top: 60px;
+}
+
+
+button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 10px auto;
+    font-size: 42px;
+    background: transparent;
+    border: 3px solid olivedrab;
+}
+
+button:hover {
+    background: #E9AC39;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 5px;
+}
+  
