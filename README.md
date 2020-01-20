@@ -1,4 +1,10 @@
-# TriviaGame
-Created a trivia game using javascript.
-A big obstacle to overcome was using objects for the game gunctions and questions
-I was able to write the game functions inside of an object to simplify the running of the game.
+# Halo Trivia
+This app is a test of Halo knowledge from Halo: Reach to Halo 3. A subject I chose because the games are a classic from my childhood. You have 35 seconds to answer each question. It will keep track of right and wrong answers then display your score at the end.
+
+## Deployment 
+This app is deployed on GitHub Pages with do additional steps.
+
+## Built With 
+* JavaScript
+* HTML5
+* CSS3
