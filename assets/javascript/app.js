@@ -1,5 +1,5 @@
-var timerStart = 35;
-var questions = [{
+const timerStart = 35;
+const questions = [{
     question: "Who is John 117?",
     answers: ["The Arbiter", "Master Chief", "Sgt. Johnson", "Captain Keyes"],
     correctAnswer: "Master Chief",
@@ -51,10 +51,10 @@ var questions = [{
     image: "assets/images/Cortana.jpg",
 }];
 
-var quizArea = $("#quizHolder");
-var timer;
+const quizArea = $("#quizHolder");
+let timer;
 
-var game = {
+const game = {
 
     questions: questions,
     currentQuestion: 0,
@@ -177,15 +177,11 @@ var game = {
 };
   
 
-$("#quizContainer").on("click", "#start-over", function() {
-    game.reset();
-  });
+$("#quizContainer").on("click", "#start-over", ()=> game.reset());
   
-$("#quizContainer").on("click", ".answer-button", function(any) {
-    game.clicked(any);
-});
+$("#quizContainer").on("click", ".answer-button", any => game.clicked(any));
   
-$("#quizContainer").on("click", "#start", function() {
+$("#quizContainer").on("click", "#start", () => {
     $("#quizContainer").prepend("<h2>Time Remaining: <span id='counter-number'>35</span> Seconds</h2>");
     game.loadQuestion();
 });
