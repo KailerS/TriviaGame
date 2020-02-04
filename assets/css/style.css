@@ -30,10 +30,12 @@ button {
     font-size: 42px;
     background: transparent;
     border: 3px solid olivedrab;
+    /* Taken from the spartan armor */
 }
 
 button:hover {
     background: #E9AC39;
+    /* Color picker used on chief's mask to get authentic color */
 }
 
 h1 {

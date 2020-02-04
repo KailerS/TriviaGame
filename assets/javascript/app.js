@@ -51,6 +51,7 @@ const questions = [{
     image: "assets/images/Cortana.jpg",
 }];
 
+// Make a variable for easy acces to the jQuery selector
 const quizArea = $("#quizHolder");
 let timer;
 
@@ -62,7 +63,7 @@ const game = {
     correct: 0,
     incorrect: 0,
 
-    countdown: function() {
+    countdown:() => {
         game.counter--;
         $("#counter-number").text(game.counter);
         if (game.counter === 0) {
@@ -77,13 +78,13 @@ const game = {
 
         quizArea.html("<h2>" + questions[this.currentQuestion].question + "</h2>");
 
-        for (var i = 0; i < questions[this.currentQuestion].answers.length; i++) {
+        for ( let i = 0; i < questions[this.currentQuestion].answers.length; i++) {
         quizArea.append("<button class='answer-button' id='button' data-name='" + questions[this.currentQuestion].answers[i]
         + "'>" + questions[this.currentQuestion].answers[i] + "</button>");
         }
     },
 
-    nextQuestion: function() {
+    nextQuestion: () => {
         game.counter = timerStart;
         $("#counter-number").text(game.counter);
         game.currentQuestion++;
@@ -108,7 +109,7 @@ const game = {
         }
     },
 
-    results: function() {
+    results: () => {
 
         clearInterval(timer);
 
@@ -132,7 +133,7 @@ const game = {
         }
     },
 
-    answeredIncorrectly: function() {
+    answeredIncorrectly: () => {
 
         game.incorrect++;
 
@@ -150,7 +151,7 @@ const game = {
         }
     },
 
-    answeredCorrectly: function() {
+    answeredCorrectly: () => {
 
         clearInterval(timer);
 
@@ -177,7 +178,7 @@ const game = {
 };
   
 
-$("#quizContainer").on("click", "#start-over", ()=> game.reset());
+$("#quizContainer").on("click", "#start-over", () => game.reset());
   
 $("#quizContainer").on("click", ".answer-button", any => game.clicked(any));
   
