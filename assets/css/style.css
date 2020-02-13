@@ -47,4 +47,11 @@ h2 {
     font-size: 35px;
     margin: 5px;
 }
-  
+/* needs media queries for mobile */
+@media screen and (max-width: 600px) {
+    button{
+        width: 90%;
+        background-color: #E9AC39;
+        font-size: 28px;
+    }
+}
