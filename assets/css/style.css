@@ -60,6 +60,6 @@ h2 {
     }
     img{
         height: 100px;
-        width: max-content;
+        max-width: 90%;
     }
 }
