@@ -49,9 +49,17 @@ h2 {
 }
 /* needs media queries for mobile */
 @media screen and (max-width: 600px) {
+    #quizHolder{
+        width: 100%;
+        text-align: left;
+    }
     button{
         width: 90%;
         background-color: #E9AC39;
         font-size: 28px;
+    }
+    img{
+        height: 100px;
+        width: max-content;
     }
 }
