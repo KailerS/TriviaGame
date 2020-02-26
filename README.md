@@ -13,10 +13,6 @@ This app is deployed on GitHub Pages.
 
 ## Installs
 No additional installs need to be made to run this app.
-## Built With 
-* JavaScript
-* HTML5
-* CSS3
 
 ## Screenshots
 
@@ -47,3 +43,8 @@ At the end of all 10 questions the final screen appears with how you did and the
 This is the final screen showing it tracks the other categories as well:
 
 ![Final score with wrong and un answered questions](/assets/images/finalScreen2.png)
+
+## Built With 
+* JavaScript
+* HTML5
+* CSS3
