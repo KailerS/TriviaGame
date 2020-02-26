@@ -17,3 +17,8 @@ No additional installs need to be made to run this app.
 * JavaScript
 * HTML5
 * CSS3
+
+## Screenshots
+
+This is the screen you will see when the page first loads:
+![Starting Screen](/assets/images/startScreen.png)
