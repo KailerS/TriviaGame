@@ -9,6 +9,8 @@ This app is deployed on GitHub Pages.
 1. Wait until it is deployed.
 1. Now you can follow the link to the site.
 
+[https://kailers.github.io/TriviaGame/] Link to deployed version
+
 ## Installs
 No additional installs need to be made to run this app.
 ## Built With 
