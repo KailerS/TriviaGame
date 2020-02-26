@@ -22,3 +22,18 @@ No additional installs need to be made to run this app.
 
 This is the screen you will see when the page first loads:
 ![Starting Screen](/assets/images/startScreen.png)
+
+This is an example of what the question looks like:
+![Example Question](/assets/images/questionExample.png)
+
+When you let the 35 seconds run out you are alerted that the time has ran out:
+![Example Question](/assets/images/noAnswer.png)
+
+When you answer the question correctly this is the screen displaying a picture of the correct answer as well:
+![Example Question](/assets/images/correctAnswer.png)
+
+After answering incorrectly this screen will appear with the text for the right answer and picture:
+![Example Question](/assets/images/wrongAnswer.png)
+
+At the end of all 10 questions the final screen appears with how you did and the option to play again:
+![Example Question](/assets/images/finalScreen.png)
